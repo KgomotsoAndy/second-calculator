@@ -1,0 +1,80 @@
+:root{
+  text-align: right;
+
+    font-family: 'Cabin Sketch', cursive;
+  --background: grey;
+  --color: grey;
+  --hype: white;
+  --accent: pink;
+  --shadow: purple;
+  border-radius:
+}
+.btn1{
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 9px;
+}
+body{
+  display: flex;
+  height: 100vh;
+  background: var(--hype);
+  text-align:center;
+}
+div.words{
+  text-align: center;
+}
+.container{
+    height: 406px;
+    width: 296px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 20px;
+
+    grid-gap: 10px;
+    color: var(--background);
+    background: var(--color);
+    background-color: var(--accent);
+}
+
+div{
+  border: 1px solid black;
+  color: var(--accent);
+}
+.btn{
+  background: purple;
+  color: #fff;
+  border-radius: 20%;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 44px;
+
+}
+.btn:hover{
+  color: pink;
+  background: var(--background);
+  cursor: pointer;
+}
+
+#heading{
+  color: var(--shadow);
+  grid-column: span 4;
+  text-align: center;
+}
+#screen{
+  background: var(--hype);
+  color: pink;
+  grid-column: span 4;
+  height: 80px;
+  border-radius: 10%;
+}
+#equals{
+  grid-row: span 2;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+}
+#zero{
+  grid-column: span 2;
+}
